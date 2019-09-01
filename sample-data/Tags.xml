@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tags>
+  <row Id="1" TagName=".net" Count="283778" ExcerptPostId="3624959" WikiPostId="3607476" />
+  <row Id="2" TagName="html" Count="826083" ExcerptPostId="3673183" WikiPostId="3673182" />
+  <row Id="3" TagName="javascript" Count="1817846" ExcerptPostId="3624960" WikiPostId="3607052" />
+  <row Id="4" TagName="css" Count="588062" ExcerptPostId="3644670" WikiPostId="3644669" />
+  <row Id="5" TagName="php" Count="1286873" ExcerptPostId="3624936" WikiPostId="3607050" />
+  <row Id="8" TagName="c" Count="304421" ExcerptPostId="3624961" WikiPostId="3607013" />
+  <row Id="9" TagName="c#" Count="1316452" ExcerptPostId="3624962" WikiPostId="3607007" />
+  <row Id="10" TagName="c++" Count="619917" ExcerptPostId="3624963" WikiPostId="3606997" />
+  <row Id="12" TagName="ruby" Count="204909" ExcerptPostId="3624964" WikiPostId="3607043" />
+  <row Id="14" TagName="lisp" Count="5768" ExcerptPostId="3656743" WikiPostId="3656742" />
+  <row Id="16" TagName="python" Count="1180426" ExcerptPostId="3624965" WikiPostId="3607014" />
+  <row Id="17" TagName="java" Count="1552980" ExcerptPostId="3624966" WikiPostId="3607018" />
+  <row Id="18" TagName="regex" Count="208190" ExcerptPostId="3624967" WikiPostId="3607017" />
+  <row Id="19" TagName="xml" Count="183603" ExcerptPostId="3624968" WikiPostId="3607588" />
+  <row Id="21" TagName="mysql" Count="562230" ExcerptPostId="3624969" WikiPostId="3607033" />
+  <row Id="22" TagName="sql" Count="493776" ExcerptPostId="3625226" WikiPostId="3607304" />
+  <row Id="23" TagName="tsql" Count="57477" ExcerptPostId="4777787" WikiPostId="4777786" />
+  <row Id="26" TagName="j#" Count="62" ExcerptPostId="8355939" WikiPostId="8355938" />
+  <row Id="27" TagName="browser" Count="22135" ExcerptPostId="5388160" WikiPostId="5388159" />
+  <row Id="28" TagName="linq" Count="74331" ExcerptPostId="4890031" WikiPostId="4890030" />
+  <row Id="30" TagName="database" Count="156590" ExcerptPostId="4973766" WikiPostId="4973765" />
+  <row Id="33" TagName="language-agnostic" Count="7875" ExcerptPostId="5197182" WikiPostId="5197181" />
+  <row Id="34" TagName="unix" Count="41164" ExcerptPostId="4957075" WikiPostId="4957074" />
+  <row Id="35" TagName="sockets" Count="55728" ExcerptPostId="5253586" WikiPostId="5253585" />
+  <row Id="38" TagName="flex" Count="24290" ExcerptPostId="3625227" WikiPostId="3608598" />
+  <row Id="41" TagName="vb.net" Count="124402" ExcerptPostId="3625228" WikiPostId="3607042" />
+  <row Id="44" TagName="structuremap" Count="1709" ExcerptPostId="5007962" WikiPostId="5007961" />
+</tags>
