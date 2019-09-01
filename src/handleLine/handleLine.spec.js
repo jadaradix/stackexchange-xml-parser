@@ -18,8 +18,6 @@ const handleLine = require('./handleLine');
   // WHEN it is handled
   const handledLine = handleLine(['Id', 'PostTypeId', 'CreationDate'], line)
 
-  console.log('handledLine', handledLine)
-
   // THEN a map is returned with 3 key/value pairs
   assert(
     Array.from(handledLine.values()).length === 3
