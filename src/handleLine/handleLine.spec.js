@@ -1,10 +1,6 @@
 const {strict: assert} = require('assert')
 const handleLine = require('./handleLine');
 
-//
-// HAPPY PATH
-//
-
 (() => {
   // GIVEN a <row line
   const line = `  <row Id="4" PostTypeId="1" AcceptedAnswerId="7" CreationDate="2008-07-31T21:42:52.667" Score="617" ViewCount="40863" Body="&lt;p&gt;I want to use a track-bar to change a form's opacit
@@ -28,8 +24,8 @@ const handleLine = require('./handleLine');
     Array.from(handledLine.keys())[2] === 'CreationDate'
   )
 
-  // AND a map is returned where the first value is the key's value
+  // AND a map is returned where the key's value is correct
   assert(
     Array.from(handledLine.values())[2] === '2008-07-31T21:42:52.667'
   )
-})();
+})()
