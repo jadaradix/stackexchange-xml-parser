@@ -12,14 +12,22 @@ const emptyFile = (filename) => {
   })
 }
 
-const writeColumns = (stream, iterable) => {
-  const string = Array.from(iterable).join(',')
-  stream.write(string + '\n')
+const writeColumns = (columns, stream) => {
+  const string = columns
+    .map(c => {
+      return c
+    })
+    .join(',')
+    stream.write(string + '\n')
 }
 
-const writeRow = (stream, iterable) => {
-  const string = Array.from(iterable).map(s => `"${s}"`).join(',')
-  stream.write(string + '\n')
+const writeRow = (columns, stream, iterable) => {
+  const string = columns
+    .map(c => {
+      return `"${iterable.get(c)}"`
+    })
+    .join(',')
+    stream.write(string + '\n')
 }
 
 const handleLines = async (columns, input, output) => {
@@ -47,9 +55,9 @@ const handleLines = async (columns, input, output) => {
       })
       if (!hasWrittenColumns) {
         hasWrittenColumns = true
-        writeColumns(outputStream, map.keys())
+        writeColumns(columns, outputStream)
       }
-      writeRow(outputStream, map.values())
+      writeRow(columns, outputStream, map)
     }
 
     let c = 0
