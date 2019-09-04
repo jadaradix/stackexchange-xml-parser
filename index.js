@@ -5,10 +5,7 @@ let [,,input, output, columns] = process.argv
 
 assert(typeof input === 'string' && input.length > 0, new Error('input argument not provided'))
 assert(typeof output === 'string' && output.length > 0, new Error('output argument not provided'))
-assert(typeof columns === 'string' && columns.length > 0, new Error('columns argument not provided'))
-
-// TAGS Id,TagName,Count,ExcerptPostId,WikiPostId
-// POSTS Id,PostTypeId,AcceptedAnswerId,OwnerUserId,CreationDate,Title,Body,Tags,ParentId
+assert(typeof columns === 'string' && columns.length > 0, new Error('columns argument not provided'));
 
 (async () => {
   console.log('before handleLines')
